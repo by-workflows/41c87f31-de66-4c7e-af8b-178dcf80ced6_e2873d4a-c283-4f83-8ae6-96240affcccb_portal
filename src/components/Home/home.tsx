@@ -8,7 +8,7 @@ const Home = () => {
         <Paper>
           <Box p={2}>
             <Typography variant="h4">
-              Test Poc For BY Dev Portal, click on the right panel navigation to switch MFE
+              ALM React App..BY Dev Portal, click on the right panel navigation to switch MFE
             </Typography>
           </Box>
         </Paper>
