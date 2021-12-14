@@ -5,23 +5,34 @@ import { X } from '@jda/lui-common-icon-library';
 const Home = () => {
   const cardJson = [
     {
-      title: 'MFE_1',
+      title: 'Blue Yonder Warehouse Map API',
       subTitle: 'Warehouse Management',
-      description: 'Demo content goes Here',
+      description: 'The Sample Data API enables you to get information about the data that has been coreloaded, meaning the data that is available for the prediction models to analyse',
     },
     {
-      title: 'MFE_2',
+      title: 'Blue Yonder Vendor Order Proposals API',
       subTitle: 'Order Management',
-      description: 'Demo content goes Here',
+      description: 'In order to deal gracefully with interface changes it is recommended to explicitly specify the interface and version in the Accept header of the request',
     },
+    {
+      title: 'Blue Yonder Vendor Order Proposals API',
+      subTitle: 'Order Management',
+      description: 'In order to deal gracefully with interface changes it is recommended to explicitly specify the interface and version in the Accept header of the request',
+    },
+    {
+      title: 'Blue Yonder Vendor Order Proposals API',
+      subTitle: 'Order Management',
+      description: 'In order to deal gracefully with interface changes it is recommended to explicitly specify the interface and version in the Accept header of the request',
+    },
+    
   ];
   return (
     <Box overflow="hidden">
       <Box display="flex" justifyContent="flex-start">
         <LuiBackground>
-          <Box p={2}>
+          <Box p={2} display="flex" flexWrap="wrap">
             {cardJson.map((item, index) => (
-              <Box m={1} key={index}>
+              <Box m={1} key={index} width="400px;">
                 <LuiCardComponent
                   title={item.title}
                   headerBordered
