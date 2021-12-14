@@ -13,6 +13,11 @@ const Home = () => {
       title: 'Blue Yonder Vendor Order Proposals API',
       subTitle: 'Order Management',
       description: 'In order to deal gracefully with interface changes it is recommended to explicitly specify the interface and version in the Accept header of the request',
+    },
+    {
+      title: 'Blue Yonder Vendor Order Proposals API Version 2',
+      subTitle: 'Order Management Version 2',
+      description: 'In order to deal gracefully with interface changes it is recommended to explicitly specify the interface and version in the Accept header of the request',
     }
     
   ];
